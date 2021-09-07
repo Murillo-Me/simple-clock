@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/bg-image.jpg");
+    background-size: cover;
+    height: 95vh;
+    background-repeat: no-repeat;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+
+}
+
+.container {
+    /* background-color: #32a4a8; */
+    display: flex;
+    width: 600px;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: white;
+    opacity: 1;
+}
+
+.container div {
+    /* background-color: rgb(0, 47, 255); */
+    display: flex;
+    font-size: 120px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1px;
+    margin: 0 0;
+}
+
+.container span {
+    font-size: 120px;
+    margin: 0 0 100px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 10px 10px 5px teal;
+}
+
+.descritivo {
+    font-size: 30px;
+}
+
+.container p {
+    margin: 2rem 0.5rem;
+    text-shadow: 10px 10px 5px teal;
+}
